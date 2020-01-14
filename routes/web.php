@@ -11,6 +11,13 @@
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+## 預設的入口 /public/
 Route::get('/', function () {
-    return view('welcome');
+    return "HELLO";
 });
+
