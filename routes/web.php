@@ -14,9 +14,12 @@
 
 ## view 導向
 ## 專案 resources\views\welcome.blade.php
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('hello');
+  });
 
 
 // ## 預設的入口 /public/
