@@ -21,3 +21,6 @@ Route::get('/', function () {
 //     return "HELLO";
 // });
 
+
+
+Route::get('QQ123', 'QQController@index';
