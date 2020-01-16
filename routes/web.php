@@ -23,4 +23,4 @@ Route::get('/', function () {
 
 
 
-Route::get('QQ123', 'QQController@index';
+Route::get('QQ123', 'QQController@index');
