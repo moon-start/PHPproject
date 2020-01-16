@@ -11,6 +11,8 @@
 |
 */
 
+
+## view(導向)
 Route::get('/', function () {
     return view('welcome');
 });
@@ -20,6 +22,12 @@ Route::get('/', function () {
 // Route::get('/', function () {
 //     return "HELLO";
 // });
+
+### URL目錄 - 一個name變數
+### 預設值 moon
+Route::get('user/{name?}', function ($name = 'moon') {
+    return 'hello'.$name;
+});
 
 
 
