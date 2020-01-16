@@ -39,4 +39,4 @@ Route::get('QQ123', 'QQController@index');
 ## Controllers目錄底下
 ## 新增一個 Hello目錄+ php
 ## 專案> php artisan make:controller Hello/KKController
-Route::get('hello','Hello\KKController@index');
+// Route::get('hello','Hello\KKController@index');
