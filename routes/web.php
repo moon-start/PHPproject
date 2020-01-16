@@ -18,14 +18,11 @@
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return view('hello');
-  });
+    // return view('hello');
+    return View::make('board');
+});
 
 
-// ## 預設的入口 /public/
-// Route::get('/', function () {
-//     return "HELLO";
-// });
 
 ### URL目錄 一個name變數
 ### 預設值 moon
