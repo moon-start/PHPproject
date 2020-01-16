@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use App\QQ;
 use Illuminate\Http\Request;
 
+### Blade 樣板實作
+use Route;
+use View;
+###########
+
+
 class QQController extends Controller
 {
     /**
@@ -14,7 +20,8 @@ class QQController extends Controller
      */
     public function index()
     {
-        return "Hello, 這是QQ控制器的 index()";
+        return View::make('board');
+        // return "Hello, 這是QQ控制器的 index()";
         //
     }
 
