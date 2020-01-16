@@ -18,7 +18,7 @@
 //     return view('welcome');
 // });
 Route::get('/', function () {
-    return View::make('board');
+    return view('hello');
 });
 
 
