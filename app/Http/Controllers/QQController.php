@@ -20,8 +20,8 @@ class QQController extends Controller
      */
     public function index()
     {
-        return View::make('board');
-        // return "Hello, 這是QQ控制器的 index()";
+        // return View::make('board');
+        return "Hello, 這是QQ控制器的 index()";
         //
     }
 
