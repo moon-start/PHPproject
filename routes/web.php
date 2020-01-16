@@ -12,8 +12,8 @@
 */
 
 
-## view(導向)
-## 專案\resources\views\welcome.blade.php
+## view 導向
+## 專案 resources\views\welcome.blade.php
 Route::get('/', function () {
     return view('welcome');
 });
@@ -24,7 +24,7 @@ Route::get('/', function () {
 //     return "HELLO";
 // });
 
-### URL目錄 - 一個name變數
+### URL目錄 一個name變數
 ### 預設值 moon
 Route::get('user/{name?}', function ($name = 'moon') {
     return 'hello , '.$name;
