@@ -43,4 +43,4 @@ Route::get('hello','Hello\KKController@index');
 
 ## 修改 routes/web.php 檔案
 ## 使用 app/Http/Controllers/CarsController.php
-Route::resource('cars','CarsController');
+// Route::resource('cars','CarsController');
