@@ -39,3 +39,8 @@ Route::get('QQ123', 'QQController@index');
 ## 新增一個 Hello目錄+ php
 ## 專案> php artisan make:controller Hello/KKController
 Route::get('hello','Hello\KKController@index');
+
+
+## 修改 routes/web.php 檔案
+## 使用 app/Http/Controllers/CarsController.php
+Route::resource('cars','CarsController');
