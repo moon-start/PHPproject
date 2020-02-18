@@ -11,36 +11,12 @@
 |
 */
 
-
-## view 導向
-## 專案 resources\views\welcome.blade.php
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', function () {
-    return view('hello');
+    return view('welcome');
 });
 
-
-
-### URL目錄 一個name變數
-### 預設值 moon
-Route::get('user/{name?}', function ($name = 'moon') {
-    return 'hello , '.$name;
-});
-
-
-## QQ123目錄
-## 使用..index()
-Route::get('QQ123', 'QQController@index');
-
-
-## Controllers目錄底下
-## 新增一個 Hello目錄+ php
-## 專案> php artisan make:controller Hello/KKController
-Route::get('hello','Hello\KKController@index');
-
-
-## 修改 routes/web.php 檔案
-## 使用 app/Http/Controllers/CarsController.php
-// Route::resource('cars','CarsController');
+//Route::resource('customer', 'CustomerController');
+Route::get('customer','CustomerController@index');
+Route::get('new','CustomerController@new');
+Route::post('store','CustomerController@store');
+Route::get('edit','CustomerController@edit');

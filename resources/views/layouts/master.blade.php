@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>@yield('title')</title>
-  @section('head')
+<title>@yield('title')</title>
+@section('head')
     @include('partials.head')
-  @show
+@show
 </head>
 <body>
-  @include('partials.nav')
-  <main class="py-4">
+@include('partials.nav')
+<main class="py-4">
     <div class="container">
-      @yield('content')
+    @yield('content')
     </div>
-  </main>
-  @section('foot')
+</main>
+@section('foot')
     @include('partials.foot')
-  @show
+@show
 </body>
 </html>
