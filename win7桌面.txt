@@ -1,9 +1,0 @@
-## 因為有隻程式 預設桌面是這個目錄
-
-1. 刪除這資料夾的內容
-C:\Users\user\Desktop\PHPproject\Background Switcher
-
-
-2. 把圖片複製進去
-
-
