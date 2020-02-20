@@ -24,7 +24,7 @@ rem os.system('git add .')
 rem os.system('git commit -m "new '+SS+'"')
 
 
-call gitC %cd%  %B%
+start gitC %cd%  %B%
 
 
 rem 建立本端的分支節點(沒上傳)
