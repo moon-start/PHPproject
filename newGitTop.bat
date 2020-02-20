@@ -5,7 +5,10 @@ rem #############################################  set /p A="輸入專案 : "
 if not  defined top (call top)
 echo.
 set    A=%top%
-set /p B="分支 : "
+
+rem set /p B="分支 : "
+set B=%1
+
 echo.
 
 
@@ -23,8 +26,6 @@ rem  setName("moon_code-workspace",SS+".code-workspace")
 rem os.system('git add .')
 rem os.system('git commit -m "new '+SS+'"')
 
-
-start gitC %cd%  %B%
 
 
 rem 建立本端的分支節點(沒上傳)
