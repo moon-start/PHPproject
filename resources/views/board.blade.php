@@ -1,4 +1,22 @@
+
+<!--@yield(‘名稱’)定義一個區塊，用來繼承 @section 定義的內容 -->
+<!--匯入網頁的架構 master.blade.php-->
 @extends('layouts.master')
+
+<!-- 檔名..? -->
+<!-- @extends(‘樣板名稱’) -->
+<!-- @include(‘樣板名稱’) -->
+<!-- 
+@section('foot')
+    @include('partials.foot')
+@show 
+-->
+
+<!-- 定義 -->
+<!-- @yield(‘名稱’) -->
+<!-- 使用--設定內容 -->
+<!-- 1設定  @section(‘名稱’) -->
+<!-- 2設定  @section('').........@stop -->
 @section('title','客戶列表')
 @section('content')
 <div class="row justify-content-center">
