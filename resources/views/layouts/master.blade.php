@@ -3,8 +3,6 @@
 <head>
 <title>@yield('title')</title>
 @section('head')
-
-    <!-- include(‘樣板名稱’)	引入樣板名稱的檔案內容 -->
     @include('partials.head')
 @show
 </head>
