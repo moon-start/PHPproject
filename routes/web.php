@@ -38,3 +38,14 @@ Route::get('cardelete','CarController@delete');
 //取消註冊功能
 Auth::routes(['register' => false]);
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/add', 'HomeController@inAdd')->name('inAdd');
+
+// //加入下列幾行
+// Route::group(['middleware' => 'auth'], function(){
+//     Route::get('edit', 'CustomerController@edit');
+//     Route::post('edit', 'CustomerController@update');
+//   });
+  
+//   Route::get('login', 'AuthController@getLogin');
+//   Route::post('login', 'AuthController@postLogin');
+//   Route::get('logout', 'AuthController@getLogout');
