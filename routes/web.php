@@ -36,9 +36,10 @@ Route::get('cardelete','CarController@delete');
 //啟用 Email 驗證功能
 //Auth::routes(['verify'=>true]);
 //取消註冊功能
-Auth::routes(['register' => false]);
+#Auth::routes(['register' => false]);
+
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/add', 'HomeController@inAdd')->name('inAdd');
+#Route::get('/add', 'HomeController@inAdd')->name('inAdd');
 
 // //加入下列幾行
 // Route::group(['middleware' => 'auth'], function(){

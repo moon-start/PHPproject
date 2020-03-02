@@ -85,7 +85,7 @@
                 </div>
 
                 <div class="links">
-                    <a href="./add">註冊</a>
+                    <!-- <a href="./add">註冊</a> -->
                     <a href="./customer">Customer</a>
                     <!--
                     <a href="https://laravel.com/docs">Docs</a>
