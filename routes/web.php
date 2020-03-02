@@ -38,6 +38,7 @@ Route::get('cardelete','CarController@delete');
 //取消註冊功能
 #Auth::routes(['register' => false]);
 
+Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 #Route::get('/add', 'HomeController@inAdd')->name('inAdd');
 
